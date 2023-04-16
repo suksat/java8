@@ -15,6 +15,6 @@ public class ThreadExample {
         // Java8 using lambda Expression
         new Thread(()->System.out.println("Thread Run method with start() method")).start();
 
-        // Thread t1=new Thread(()->System.out.println("Thread within Run method"));
+        // Thread t1=new Thread(()->System.out.println("Thread with Run method"));
     }
 }
