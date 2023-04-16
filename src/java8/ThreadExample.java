@@ -8,11 +8,13 @@ public class ThreadExample {
 
             @Override
             public void run() {
-                System.out.println("Thread start() method");
+                System.out.println("Thread run method");
             }
         }).start();
 
         // Java8 using lambda Expression
-        new Thread(()->System.out.println("Thread start() method")).start();
+        new Thread(()->System.out.println("Thread Run method with start() method")).start();
+
+        // Thread t1=new Thread(()->System.out.println("Thread within Run method"));
     }
 }
